@@ -36,7 +36,7 @@ public class RestClient {
 	}
 	
 	
-	public String queryRestEndpoints(HereMapsImpl mapType,String basePath,boolean isSSl) {
+	public synchronized String queryRestEndpoints(HereMapsImpl mapType,String basePath,boolean isSSl) {
 		
 		URI uriObject = null;
 		

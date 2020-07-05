@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class OnStreetParking implements HereMapsImpl {
 	
 	private static final String r = "150";
-	private static final String q = "off-street-parking";
+	private static final String q = "on-street-parking";
 	private static final String API_KEY = "LKtXL4_3oVTBKBmF3HuvNFSbMR-lDwQ9pLcQZEu-idw";
 
 	@Override
